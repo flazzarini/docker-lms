@@ -5,7 +5,7 @@ known as SqueezeboxServer.
 
 Build:
 
-    docker build -t flazzarini/docker-lms git://github.com/flazzarini/docker-lms.git
+    docker build -t flazzarini/lms git://github.com/flazzarini/docker-lms.git
 
 Run Directly:
 
@@ -15,4 +15,4 @@ Run Directly:
                -p 3483:3483/udp \
                -v <local-state-dir>:/srv/squeezebox \
                -v <audio-dir>:/srv/music \
-               flazzarini/docker-lms
+               flazzarini/lms
