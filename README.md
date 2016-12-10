@@ -3,6 +3,10 @@
 This is a auto-updating docker image to run a Logitech MediaServer or otherwise
 known as SqueezeboxServer.
 
+Build:
+
+    docker build -t flazzarini/docker-lms git://github.com/flazzarini/docker-lms.git
+
 Run Directly:
 
     docker run -d \
